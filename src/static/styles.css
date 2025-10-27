@@ -155,10 +155,20 @@ footer {
   color: #1a237e;
 }
 
-.participants-list ul {
+
+.participants-list-ul {
   list-style: none;
   padding-left: 0;
   margin: 0;
+}
+.delete-participant {
+  color: #c62828;
+  font-size: 18px;
+  margin-left: 6px;
+  transition: color 0.2s;
+}
+.delete-participant:hover {
+  color: #a31515;
 }
 
 .participants-list li {
